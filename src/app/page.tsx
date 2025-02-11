@@ -38,11 +38,11 @@ export default function HomePage() {
   return (
     <main className="flex items-center justify-center min-h-screen w-full">
       <div className="flex flex-col gap-6 text-center">
-        <h1 className="text-6xl font-bold">Will you be my Valentine?</h1>
+        <h1 className="text-5xl md:text-6xl font-bold">Will you be my Valentine?</h1>
         <div className="flex items-center gap-4 justify-center text-3xl">
           <button
             ref={noButtonRef}
-            className="px-6 py-2 bg-white rounded-lg transition-all duration-200"
+            className="px-6 py-2 bg-white rounded-lg transition-all duration-300"
             style={{
               position: hasHovered ? "absolute" : "relative",
               top: hasHovered ? `${noButtonPosition.top}px` : "auto",
