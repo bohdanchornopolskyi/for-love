@@ -1,10 +1,15 @@
-import { redirect } from "next/navigation";
+'use client';
+
+
+import { useRouter } from "next/navigation";
 import Confetti from "~/components/confetti";
 
 function Success() {
 
+  const router = useRouter();
+
   setTimeout(() => {
-    redirect('/poem');
+    router.push('/poem');
   }, 10000);
 
 
