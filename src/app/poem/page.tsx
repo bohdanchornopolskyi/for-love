@@ -3,7 +3,7 @@ import React from 'react'
 function Poem() {
   return (
     <div className="flex flex-col gap-4 items-center justify-center min-h-screen w-full px-4 py-20">
-      <h1 className="text-5xl md:text-6xl font-bold">I love you &#x1F600;</h1>
+      <h1 className="text-5xl md:text-6xl font-bold pb-4">I love you &#x1F600;</h1>
       <div className="text-lg max-w-md leading-9 space-y-4">
         <p>
           Ти – світло, що в серці моєму горить,<br />
@@ -32,11 +32,15 @@ function Poem() {
           Бо любов моя – в кожному дні, де ти є.
         </p>
         <p>
-          І нехай цей світ летить, як вітер,<br />
-          Ти завжди будеш моїм всесвітом.<br />
-          Бо немає місця, кращого за те,<br />
-          Де в обіймах твоїх мене серце веде.
+          І хай цей світ змінюється щодня,<br />
+          Та ти для мене — вічна і єдина.<br />
+          Немає місця кращого, ніж там,<br />
+          Де наші серця б’ються разом, єдино.
         </p>
+        <div class="flex flex-col items-end font-bold">
+          <p>З любов'ю,</p>
+          <p>Твій коханий</p>
+        </div>
       </div>
     </div>
   )
