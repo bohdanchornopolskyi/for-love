@@ -37,8 +37,8 @@ function Poem() {
           Немає місця кращого, ніж там,<br />
           Де наші серця б’ються разом, єдино.
         </p>
-        <div class="flex flex-col items-end font-bold">
-          <p>З любов'ю,</p>
+        <div className="flex flex-col items-end font-bold">
+          <p>З любов&apos;ю,</p>
           <p>Твій коханий</p>
         </div>
       </div>
